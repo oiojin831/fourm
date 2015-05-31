@@ -8,4 +8,6 @@ end
 
 Rails.application.routes.draw do
   root "mains#show"
+  resources :searches, only: [:index]
+
 end

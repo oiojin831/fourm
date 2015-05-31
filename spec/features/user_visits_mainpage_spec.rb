@@ -1,6 +1,6 @@
 require "rails_helper"
 
-feature "User visits main page" do
+RSpec.feature "User visits main page" do
   scenario "User is not signed in" do
     visit root_path
 
